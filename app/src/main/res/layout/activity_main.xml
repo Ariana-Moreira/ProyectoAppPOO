@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/material_dynamic_primary20"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Menú de Opciones"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/material_dynamic_tertiary10"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <LinearLayout
+        android:layout_width="282dp"
+        android:layout_height="602dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="65dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="166dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Registrar vehiculo"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/verde" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Registrar conductor"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/verde" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Asignar vehiculo a conductor"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/verde" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Registrar paquete a entregar"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/verde" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Crear ruta de entrega"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/verde" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Iniciar rastreo de vehiculo"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/verde" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Registrar eventos de ruta"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/verde" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Consultar historial del vehiculo"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/verde" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Generar reportes de entregas"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="viewStart"
+            android:backgroundTint="@color/verde" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
