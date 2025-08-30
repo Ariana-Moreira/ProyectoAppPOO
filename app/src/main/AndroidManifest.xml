@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppBanco">
         <activity
+            android:name=".ConductoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VehiculosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrearRutaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RutasActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
